@@ -1,0 +1,12 @@
+{
+    "all_states":["q0","q1","q2","q3"],
+    "alphabet":["a", "b"],
+    "state_transitions":[
+	{"state":"q0", "a":"q1", "b":"q0"},
+	{"state":"q1", "a":"q1", "b":"q2"},
+	{"state":"q2", "a":"q3", "b":"q0"},
+	{"state":"q3", "a":"q3", "b":"q3"}
+    ],
+    "start_state":"q0",
+    "accept_states":["q3"]
+}
